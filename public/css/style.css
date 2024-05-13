@@ -1,3 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    width: 75%;
+}
+
+
 body {
-    background-color: aquamarine;
+    background-color: rgb(253, 245, 248);
+    font-family: "Quicksand", sans-serif;
+    margin-left: 17rem;
+}
+
+.movie-data-list {
+    list-style: none;
+    line-height: 2rem;
+}
+
+img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+.movie-card {
+    margin-top: 2rem;
+    height: 800px;
+    text-align: center;
+}
+
+
+.movie-poster-container img {
+    margin-top: 1.5rem;
+    border-radius: 5px; 
+}
+
+
+.movie-data-list span {
+    font-weight: bold;
+}
+
+.movie-info-actions ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-rating {
+    display: inline-block;
+    border: 1px solid #4d4d4dc0;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+.movie-info-quote {
+    color: #4d4d4dc0;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.movie-info-overview-title {
+    text-transform: capitalize;
+    color: rgba(22, 1, 43, 0.856);
+    margin-bottom: 0.5rem;
+}
+
+.movie-info-overview {
+    width: 65%;
+    margin-left: 17rem;
+}
+
+.movie-info-actions {
+    font-size: 1.1rem;
+}
+
+.movie-info-actions ul {
+    list-style: none;
+}
+
+.movie-info-actions ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(22, 1, 43, 0.856);
+}
+
+.movie-info-actions ul li:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 8px 8px -4px rgba(22, 1, 43, 0.856);
+}
+
+.movie-info-actions ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    text-align: center;
+    color: #444444;
+    margin-top: -3rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #444444;
 }
